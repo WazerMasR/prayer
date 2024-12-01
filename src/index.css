@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+html {
+  direction: rtl;
+}
+
+section {
+  background: url(assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+section .container {
+  width: 650px;
+  background-color: #332a224e;
+  padding: 30px 25px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid #d7d7d74e;
+  margin-right: 15%;
+}
+
+section .top_sec {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid  #d7d7d74e;
+}
+
+section .top_sec select {
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #a54f3a;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+section .top_sec h3 {
+  font-size: 26px;
+  color: #fff;
+}
+
+section .top_sec .date {
+  width: 250px;
+}
+
+section .top_sec .date h4 {
+  font-size: 26px;
+  color: #fff;
+}
+
+section .prayer {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 5px 25px;
+  background-color: #a54f3a;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid  #d7d7d74e;
+}
